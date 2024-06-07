@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+  }
+  
+  /* ----HEADER---- */
+  header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #811001;
+    z-index: 1;
+  }
+  .logo1 img {
+    margin-left: 3rem;
+    width: 65px;
+    height: 50px;
+  }
+  .website {
+    margin-left: 10px;
+  }
+  .website a {
+    text-decoration: none;
+    color: white;
+  }
+  .cari {
+    margin-left: 59rem;
+  }
+  .inputcari {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  .login {
+    margin-left: 1rem;
+  }
+  .login a {
+    color: #04ec04;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .login a:hover {
+    background-color: #00bc00;
+    color: white;
+  }
+  
+  /* ----Halaman Utama---- */
+  .banner {
+    margin: 1rem 3rem 3rem 3rem;
+    padding: 100px;
+    border-radius: 10px;
+    background-image: url(img/background\ header.jpg);
+  }
+  .banner .welcome {
+    font-weight: 500;
+    color: white;
+  }
+  .banner h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+  }
+  .banner p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 27px;
+    color: white;
+  }
+
+  /* ----Footer---- */
+footer {
+    background-color: #811001;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+  }
+  .footerkiri {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .logo {
+    width: 80px;
+    height: 65px;
+  }
+  .footerkiri p {
+    color: white;
+    width: 350px;
+  }
+  .footerkiri a {
+    text-decoration: none;
+  }
+  .sosmed a {
+    text-decoration: none;
+  }
+  .sosmed a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .sosmed a img:hover {
+    border: none;
+    box-shadow: 1px 1px 5px black;
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+  }
+  
